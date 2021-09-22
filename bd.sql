@@ -19,13 +19,13 @@ insert into Producto values
 ("P0005", "Huevo","La Calera", "Paquete", 2000, 5.3);
 
 
-CREATE TABLE IF NOT EXISTS Usuario (
+CREATE TABLE IF NOT EXISTS usuario (
   Codigo int auto_increment Primary Key,
-  Correo varchar(60) NOT NULL UNIQUE,
-  Contraseña VARCHAR(60) NOT NULL 
+  correo varchar(60) NOT NULL UNIQUE,
+  clave VARCHAR(60) NOT NULL 
 );
 
-insert into Usuario values
+insert into usuario values
 ("ialiaga@hotmail.com", "1234"),
 ("jcarlos@hotmail.com", "1234"),
 ("ftacca@hotmail.com", "1234");
