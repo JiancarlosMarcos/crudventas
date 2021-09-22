@@ -26,9 +26,9 @@ CREATE TABLE IF NOT EXISTS usuario (
 );
 
 insert into usuario values
-("ialiaga@hotmail.com", "1234"),
-("jcarlos@hotmail.com", "1234"),
-("ftacca@hotmail.com", "1234");
+("null","ialiaga@hotmail.com", "1234"),
+("null","jcarlos@hotmail.com", "1234"),
+("null","ftacca@hotmail.com", "1234");
 
 select * from producto;
 select * from usuario;
