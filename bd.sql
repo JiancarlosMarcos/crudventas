@@ -1,7 +1,7 @@
 CREATE DATABASE IF NOT EXISTS CRUDVentas;
 USE CRUDVentas;
 
-Create table Producto
+Create table producto
 (
     Codigo char(8) not null Primary Key,
     Nombre varchar(100) not null,
@@ -11,7 +11,7 @@ Create table Producto
     Precio float not null
 );
 
-insert into Producto values
+insert into producto values
 ("P0001", "Arroz","Rompe Olla", "Paquete", 1500, 3.5),
 ("P0002", "Azucar","Del Valle", "Paquete", 1200, 2.8),
 ("P0003", "Leche Evaporada","Gloria", "Lata", 1300, 3.4),
@@ -30,5 +30,5 @@ insert into usuario values
 ("jcarlos@hotmail.com", "1234"),
 ("ftacca@hotmail.com", "1234");
 
-select * from Producto;
-select * from Usuario;
+select * from producto;
+select * from usuario;
